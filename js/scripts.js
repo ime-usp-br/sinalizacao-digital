@@ -35,4 +35,4 @@ function pisca() {
     window.location.reload(true);
 }
 
-var timer2 = setInterval(pisca, 600000);
+var timer2 = setInterval(pisca, 43200000);  // atualiza a página a cada 720 minutos, ou seja, 12 horas
